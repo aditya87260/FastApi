@@ -1,0 +1,6 @@
+For creating and activating virtual environment
+python3 -m venv fastapi-venv--- Creating
+source fastapi-venv/bin/activate --- Activating
+
+For running the server -- uvicorn main:app --reload
+@app.get('/about')  -- here /about is the end point means we are requesting date from about page (http://127.0.0.1:8000/about -- Here url before /about is the base url)
