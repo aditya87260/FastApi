@@ -27,3 +27,9 @@ class ShowBlog(Blog):
     creator: showUser
     class Config:
         orm_mode = True   # we are telling that we are using sqlalchemy orm
+
+class Login(BaseModel):
+    username: str
+    password: str
+    class Config:
+        orm_mode = True
