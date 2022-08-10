@@ -28,3 +28,6 @@ To declare a request body, you use Pydantic models(BaseModel) with all their pow
 
 To send data, you should use one of: POST (the more common), PUT, DELETE or PATCH.
 
+JWT---https://www.softwaresecured.com/security-issues-jwt-authentication/
+FastAPi--- https://www.youtube.com/watch?v=7t2alSnE2-I
+FastApi -- https://fastapi.tiangolo.com/tutorial/body/
